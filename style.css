@@ -1,0 +1,129 @@
+html ,body{
+    margin: 0px;
+    font-weight: 100;
+    display: flex;
+    font-family: Montserrat, sans-serif;
+}
+.navigation{
+  position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.7em;
+    color: #cac9cf;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 15vw;
+    background-color: #0e0d2c;
+}
+.main{
+    margin-left: 15vw;
+    width: 85vw;
+}
+.all{ 
+    display: flex;
+}
+.logo{
+    margin: 0 2em 0 2em;
+    width: 5vw;
+    height: 5vw;
+}
+
+.services p{
+    margin: 2em 0 2em 0;
+}
+.services{
+    margin: 2em 0 2em 0;
+    font-size: 1.2vw;
+    color: #cac9cf;
+}
+.logo-container p{
+    margin: 0;
+}
+.contacts{
+    color: rgb(136, 137, 138);
+    margin: 2em;
+    font-size: 0.8vw;
+}
+.change-language{
+    font-size: 1vw;
+    margin-top: 0.5em;
+
+}
+h1{
+    color: white;
+    font-size: 6vw;
+}
+.nacalo{
+    align-content: center;
+    background-image: url(./2024-12-31\ 15.09.49.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 8em 0 8em;
+    height: 100vh;
+    
+}
+.book-a-room{
+    border: black;
+    font-size: 1.8vw;
+    border-radius: 1vw;
+    background-color: #baa37a;
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 0.7em;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.rooms{
+    background-color: #baa37a;
+    padding: 0 4vw;
+    height: 100vh;
+}
+
+#carouselExampleIndicators{
+    height: 70vh;
+}
+.carousel-item{
+    height: 70vh;
+}
+.d-block{
+    position: absolute;
+    padding: 2vw 20vw 2vw 2vw;
+    height: 70vh;
+    border: 2px white solid;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 3vw;
+}
+.carousel-inner{
+    position: absolute;
+}
+.carousel-control-next{
+    right: -3.5vw;
+}
+.carousel-control-prev{
+    left: -3.5vw;
+}
+.carousel-indicators{
+    margin-bottom: 0;
+}
+.describe-item{
+    margin: 0;
+    top: 10vh;
+    left: 62.5vw;
+    width: 3em;
+    height: auto;
+    position: relative;
+}
+.name-of-room{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.mini-img{
+    width: 3em;
+}

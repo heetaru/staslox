@@ -111,19 +111,36 @@ h1{
 .carousel-indicators{
     margin-bottom: 0;
 }
-.describe-item{
+.describe-item{ 
+    color: white;
     margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    right: 3.7vw;
+    width: auto;
     top: 10vh;
-    left: 62.5vw;
-    width: 3em;
     height: auto;
     position: relative;
 }
-.name-of-room{
-    color: white;
-    font-size: 30px;
+.type-of-room{
+    font-size: 40px;
     font-weight: 600;
 }
 .mini-img{
     width: 3em;
+}
+.describe-room{
+    margin: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.button-for-booking{
+    background-color: #0e0d2c;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding: 0.8vw 1.2vw;
 }

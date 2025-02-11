@@ -10,7 +10,7 @@ html ,body{
     flex-direction: column;
     justify-content: space-between;
     gap: 2.7em;
-    color: #cac9cf;
+    color: white;
     text-align: center;
     justify-content: center;
     height: 100vh;
@@ -36,7 +36,7 @@ html ,body{
 .services{
     margin: 2em 0 2em 0;
     font-size: 1.2vw;
-    color: #cac9cf;
+    color: white;
 }
 .logo-container p{
     margin: 0;
@@ -51,13 +51,11 @@ html ,body{
     margin-top: 0.5em;
 
 }
-h1{
-    color: white;
-    font-size: 6vw;
-}
+
 .nacalo{
     align-content: center;
-    background-image: url(./2024-12-31\ 15.09.49.jpg);
+    background-image: url(./img/2024-12-31\ 15.09.49.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 8em 0 8em;
@@ -73,14 +71,20 @@ h1{
     width: auto;
     height: auto;
     padding: 0.7em;
+    &:hover{
+        transition: ease 0.3s;
+        background-color: #8f7852;
+    }
 }
+
 .main{
     display: flex;
     flex-direction: column;
 }
 .rooms{
+    display: flex;
+    flex-direction: column;
     background-color: #baa37a;
-    padding: 0 4vw;
     height: 100vh;
 }
 
@@ -94,7 +98,6 @@ h1{
     position: absolute;
     padding: 2vw 20vw 2vw 2vw;
     height: 70vh;
-    border: 2px white solid;
 }
 .carousel-control-next, .carousel-control-prev{
     width: 3vw;
@@ -112,17 +115,14 @@ h1{
     margin-bottom: 0;
 }
 .describe-item{ 
+    padding-right: 2vw;
+    transform: translateY(17%);
     color: white;
-    margin: 0;
+    width:18vw;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     float: right;
-    right: 3.7vw;
-    width: auto;
-    top: 10vh;
     height: auto;
-    position: relative;
+
 }
 .type-of-room{
     font-size: 40px;
@@ -131,11 +131,9 @@ h1{
 .mini-img{
     width: 3em;
 }
-.describe-room{
-    margin: 10vh 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.just-img{
+    padding: 2vw 2vw;
+    height: 70vh;
 }
 .button-for-booking{
     background-color: #0e0d2c;
@@ -143,4 +141,53 @@ h1{
     border-radius: 10px;
     border: 0;
     padding: 0.8vw 1.2vw;
+    &:hover{
+        transition: ease 0.3s;
+        background-color: #262650;
+    }
+}
+
+.carousel{
+    margin: 7vh 4vw 0 4vw;
+    border: 2px white solid;
+}
+.vstup{
+    color: black;
+    padding: 3vh 0 1vh 3vw;
+    background-color: white;
+}
+.describe-room span{
+    height: 5vh;
+}
+.describe-room{
+    color: white;
+    text-align: center;
+    margin: 8vh 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.g, .b, .p{
+    position: relative;
+    vertical-align: middle;
+    &::before{
+        content: "";
+        background-size: cover;  
+        width: 30px;
+        height: 30px;
+        display: block;
+        position: absolute;
+        right: 14vw;
+        
+    }
+}
+.g::before{
+    background-image: url(./img/photo_2025-01-25_22.46.50-removebg-preview.png);
+}
+.b::before{
+    background-image: url(./img/photo_2025-01-25_22.46.52-removebg-preview.png);
+}
+.p::before{
+    background-image: url(./img/photo_2025-01-25_22.46.55-removebg-preview.png);
 }
